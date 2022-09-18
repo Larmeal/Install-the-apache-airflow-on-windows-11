@@ -146,7 +146,7 @@ airflow scheduler
           --email <your_email>
 ```
   </p>
-  </detail>
+  </details>
   
 ---
   
