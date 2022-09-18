@@ -11,7 +11,7 @@ That is easy steps most of the topic, first of all, you should
   
 ---
 
-<details><summary> Download the Ubuntu and install </summary>
+<details><summary> Download the Ubuntu and Install </summary>
   <p>  
   
 The Ubuntu is the distribution of Linux in this case we use it for running the Apache Airflow
@@ -45,7 +45,7 @@ wsl -d Ubuntu-20.04
     
 ---
 
-<details><summary> Set up the Ubuntu for first-time install </summary>
+<details><summary> Set up the Ubuntu for First-Time Install </summary>
 <p>  
   
 1. Next step, open the Ubuntu by clicking on the tap of the PowerShell tab bar.
@@ -85,7 +85,7 @@ pyenv install 3.9.12
   
 ---
 
-<details><summary> Download and set up Apache Airflow </summary>
+<details><summary> Download and Set up Apache Airflow </summary>
 <p>
   
 The final step of installation of the Apache Airflow 
