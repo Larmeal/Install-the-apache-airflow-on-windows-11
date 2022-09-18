@@ -44,11 +44,11 @@ wsl -d Ubuntu-20.04
 ```
 sudo apt-get update
 ```
-  then 
+then 
 ```
 sudo apt-get upgrade
 ```
-  then
+   then
 ```
 sudo apt-get install npm
 ```
