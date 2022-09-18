@@ -7,7 +7,7 @@ That is easy steps most of the topic, first of all you should
 
 ### Download the Ubuntu and install (the Ubuntu is distribution of Linux for runing Apache Airflow)
 
-You can open [the Microsoft website](https://learn.microsoft.com/en-gb/windows/wsl/install) then follow the steps to install the Ubuntu by the PowerShell
+You can open the [Microsoft website](https://learn.microsoft.com/en-gb/windows/wsl/install) then follow the steps to install the Ubuntu by the PowerShell
 
 
 This step excute on the powershell 
