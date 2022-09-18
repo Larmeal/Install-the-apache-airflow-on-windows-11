@@ -1,6 +1,6 @@
 # Installation of The Apache Airflow on Windows 11 
 
-<details><summary> ### Download the PowerShell </summary>
+<details><summary> Download the PowerShell </summary>
   <p>
   
 That is easy steps most of the topic, first of all, you should
@@ -11,7 +11,7 @@ That is easy steps most of the topic, first of all, you should
   
 ---
 
-<details><summary> ### Download the Ubuntu and install </summary>
+<details><summary> Download the Ubuntu and install </summary>
   <p>  
   
 the Ubuntu is the distribution of Linux in this case we use it for running the Apache Airflow
@@ -45,7 +45,7 @@ wsl -d Ubuntu-20.04
     
 ---
 
-<details><summary> ### Set up the Ubuntu for first-time install </summary>
+<details><summary> Set up the Ubuntu for first-time install </summary>
 <p>  
   
 1. Next step, open the Ubuntu by clicking on the tap of the PowerShell tab bar.
@@ -85,11 +85,11 @@ pyenv install 3.9.12
   
 ---
 
-<details><summary> ### Download and set up Apache Airflow </summary>
+<details><summary> Download and set up Apache Airflow </summary>
 <p>
   
 The final step of installation of the Apache Airflow 
-1. you should create some a folder (or directory) at /home/user location.
+1. you should create a folder (or directory) for set_u-up the Airflow at /home/user location.
 ```
 mkdir airflow-setup
 ```
