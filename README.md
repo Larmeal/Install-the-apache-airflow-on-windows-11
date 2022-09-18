@@ -35,6 +35,8 @@ wsl --install -d Ubuntu-20.04
 wsl -d Ubuntu-20.04
 ```
 
+---
+
 ### Set up the Ubuntu for first-time install 
 
 1. Next step, open the Ubuntu by clicking on the tap of the PowerShell tab bar.
@@ -70,6 +72,8 @@ pyenv install 3.9.12
   "pyenv install: 3.x BUILD FAILED (Ubuntu 20.04 using python-build 20180424)"
 
   do following this [link](https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424)
+
+---
 
 ### Download and set up Apache Airflow
 
