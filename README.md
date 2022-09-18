@@ -64,12 +64,12 @@ sudo apt-get install npm
 pyenv install 3.9.12
 ```
 
-  **Optional** for people who use VScode IDE to download the "Remote - WSL" extension to write the python code in Ubuntu
+  > **Optional** for people who use VScode IDE to download the "Remote - WSL" extension to write the python code in Ubuntu
 
-  if you get the error message 
-  "pyenv install: 3.x BUILD FAILED (Ubuntu 20.04 using python-build 20180424)"
+  > if you get the error message 
+  > "pyenv install: 3.x BUILD FAILED (Ubuntu 20.04 using python-build 20180424)"
 
-  do following this [link](https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424)
+  > Do following this [link](https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424)
 
 ---
 
