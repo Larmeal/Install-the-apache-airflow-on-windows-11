@@ -57,16 +57,14 @@ then
 sudo apt-get install npm
 ```
 
-3. Install the python by the Pyenv in the Ubuntu
-
-  the [Stackoverflow](https://stackoverflow.com/questions/62743132/ubuntu-18-04-command-pyenv-not-found-did-you-mean) link clearly describes a step-by-step method. you   can follow Ircbarros's comment
+3. Install the python by the Pyenv in the Ubuntu. the [Stackoverflow](https://stackoverflow.com/questions/62743132/ubuntu-18-04-command-pyenv-not-found-did-you-mean) link clearly describes a step-by-step method. you   can follow Ircbarros's comment
 
 4. Install the python with pyenv (you can determine the version of python in this case use the Python 3.9.12 version.)
 ```
 pyenv install 3.9.12
 ```
 
-  **optional** for people who use VScode IDE to download the "Remote - WSL" extension to write the python code in Ubuntu
+  **Optional** for people who use VScode IDE to download the "Remote - WSL" extension to write the python code in Ubuntu
 
   if you get the error message 
   "pyenv install: 3.x BUILD FAILED (Ubuntu 20.04 using python-build 20180424)"
