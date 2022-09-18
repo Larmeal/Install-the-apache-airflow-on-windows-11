@@ -6,7 +6,7 @@ That is easy steps most of the topic, first of all, you should
 > Open the Microfose Store -> Search the "PowerShell" -> Install it.
 
 ### Download the Ubuntu and install 
-(the Ubuntu is the distribution of Linux in this case we use it for running the Apache Airflow)
+the Ubuntu is the distribution of Linux in this case we use it for running the Apache Airflow
 
 You can open the [Microsoft website](https://learn.microsoft.com/en-gb/windows/wsl/install) and then follow the steps to install the Ubuntu by the PowerShell
 
