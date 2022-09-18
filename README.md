@@ -37,5 +37,24 @@ wsl -d Ubuntu-20.04
 
 ### Set up the Ubuntu for first-time install 
 
-Next step, open the Ubutun with cilcking on the tap of PowerShell tab bar
+1. Next step, open the Ubuntu by clicking on the tap of the PowerShell tab bar.
+(if someone doesn't know how to open the PowerShell like this, you just right-click on "start" and use the Windows terminal) 
+
 ![open ubuntu ](https://user-images.githubusercontent.com/95965281/190912152-918b5043-256b-4d3e-a260-06412bd1e8bc.png)
+
+2. After you are setting the username and password, use run the command belows immediately 
+```
+sudo apt-get update
+```
+then 
+```
+sudo apt-get upgrade
+```
+then
+```
+sudo apt-get install npm
+```
+
+3. Install the python by the Pyenv in the Ubuntu
+
+the [Stackoverflow](https://stackoverflow.com/questions/62743132/ubuntu-18-04-command-pyenv-not-found-did-you-mean) link is process clearly 
