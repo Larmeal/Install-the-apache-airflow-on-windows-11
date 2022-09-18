@@ -119,6 +119,9 @@ airflow db init
 airflow webserver
 ```
 
-8. When we did all the steps previously, The "airflow" directory was created simoustanly with the web server or the initial database command was triggered
+8. When we did all the steps previously, The "airflow" directory was created simoustanly with the web server or the initial database command was triggered. After that, you have to open the new Ubuntu (still keep the running webserver tab) then go to airflow-setup directory `cd airflow-setup` and **activate virtual ENV again**. Next run the `airflow scheduler` command to start Airflow
+```
+airflow scheduler
+```
 
 
