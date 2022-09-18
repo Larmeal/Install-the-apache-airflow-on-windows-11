@@ -5,6 +5,8 @@
 That is easy steps most of the topic, first of all, you should
 > Open the Microfose Store -> Search the "PowerShell" -> Install it.
 
+---
+
 ### Download the Ubuntu and install 
 the Ubuntu is the distribution of Linux in this case we use it for running the Apache Airflow
 
@@ -48,7 +50,7 @@ then
 ```
 sudo apt-get upgrade
 ```
-   then
+then
 ```
 sudo apt-get install npm
 ```
@@ -116,4 +118,5 @@ airflow webserver
 ```
 
 8. When we did all the steps previously, The "airflow" directory was created simoustanly with the web server or the initial database command was triggered
+
 
