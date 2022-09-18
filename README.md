@@ -119,9 +119,17 @@ airflow db init
 airflow webserver
 ```
 
-8. When we did all the steps previously, The "airflow" directory was created simoustanly with the web server or the initial database command was triggered. After that, you have to open the new Ubuntu (still keep the running webserver tab) then go to airflow-setup directory `cd airflow-setup` and **activate virtual ENV again**. Next run the `airflow scheduler` command to start Airflow
+8. When we did all the steps previously, The "airflow" directory was created simoustanly with the web server or the initial database command was triggered. After that, you have to open the new Ubuntu (still keep the running webserver tab) then go to the airflow-setup directory `cd airflow-setup` and **activate virtual ENV again**. Next, running the `airflow scheduler` command to start Airflow
 ```
 airflow scheduler
 ```
 
-
+9. Open the new Ubuntu to create username and password (don't close any tab before). go to the airflow-setup directory `cd airflow-setup` and **activate virtual ENV again**. !! **in section "role" use only "Admin"**
+```
+    $ airflow users create \
+          --username <your_user> \
+          --firstname <your_first_name> \
+          --lastname <your_last_name> \
+          --role Admin \
+          --email <your_email>
+```
