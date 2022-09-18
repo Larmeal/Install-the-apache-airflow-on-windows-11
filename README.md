@@ -13,7 +13,7 @@ the Ubuntu is the distribution of Linux in this case we use it for running the A
 You can open the [Microsoft website](https://learn.microsoft.com/en-gb/windows/wsl/install) and then follow the steps to install the Ubuntu by the PowerShell
 
 1. Run on your Powershell
-```
+``` Shell
 wsl --install
 ```
 
