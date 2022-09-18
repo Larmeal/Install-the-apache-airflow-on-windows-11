@@ -1,13 +1,18 @@
 # Installation of The Apache Airflow on Windows 11 
 
-### Download the PowerShell 
-
+<details><summary> ### Download the PowerShell </summary>
+  <p>
+  
 That is easy steps most of the topic, first of all, you should
 > Open the Microfose Store -> Search the "PowerShell" -> Install it.
 
+  </p>
+  </details>
 ---
 
-### Download the Ubuntu and install 
+<details><summary> ### Download the Ubuntu and install </summary>
+  <p>  
+  
 the Ubuntu is the distribution of Linux in this case we use it for running the Apache Airflow
 
 You can open the [Microsoft website](https://learn.microsoft.com/en-gb/windows/wsl/install) and then follow the steps to install the Ubuntu by the PowerShell
@@ -34,11 +39,14 @@ wsl --install -d Ubuntu-20.04
 ```
 wsl -d Ubuntu-20.04
 ```
-
+  </p>
+  </details>
+    
 ---
 
-### Set up the Ubuntu for first-time install 
-
+<details><summary> ### Set up the Ubuntu for first-time install </summary>
+<p>  
+  
 1. Next step, open the Ubuntu by clicking on the tap of the PowerShell tab bar.
   (if someone doesn't know how to open the PowerShell like this, you just right-click on "start" and use the Windows terminal) 
 
@@ -71,10 +79,14 @@ pyenv install 3.9.12
 
   > Do following this [link](https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424)
 
+   </p>
+  </details>
+  
 ---
 
-### Download and set up Apache Airflow
-
+<details><summary> ### Download and set up Apache Airflow </summary>
+<p>
+  
 The final step of installation of the Apache Airflow 
 1. you should create some a folder (or directory) at /home/user location.
 ```
@@ -114,7 +126,7 @@ pip install "apache-airflow[async,postgres,google]==${AIRFLOW_VERSION}" --constr
 airflow db init
 ```
 
-7. Start the webserver of Airflow that run on "[localhost:8080](http://localhost:8080/)"
+7. Start the webserver of Airflow that run on "[http://localhost:8080/](http://localhost:8080/home)".
 ```
 airflow webserver
 ```
@@ -133,5 +145,9 @@ airflow scheduler
           --role Admin \
           --email <your_email>
 ```
-
+  </p>
+  </detail>
+  
+---
+  
 finally, Thank you everyone.
