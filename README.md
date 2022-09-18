@@ -124,7 +124,7 @@ airflow webserver
 airflow scheduler
 ```
 
-9. Open the new Ubuntu to create username and password (don't close any tab before). go to the airflow-setup directory `cd airflow-setup` and **activate virtual ENV again**. !! **in section "role" use only "Admin"**
+9. Open the new Ubuntu to create a username and password (don't close any tab before). go to the airflow-setup directory `cd airflow-setup` and **activate virtual ENV again**. !! **in section "role" use only "Admin"**
 ```
     $ airflow users create \
           --username <your_user> \
@@ -133,3 +133,5 @@ airflow scheduler
           --role Admin \
           --email <your_email>
 ```
+
+finally, Thank you everyone.
