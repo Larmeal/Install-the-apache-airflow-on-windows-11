@@ -36,38 +36,38 @@ wsl -d Ubuntu-20.04
 ### Set up the Ubuntu for first-time install 
 
 1. Next step, open the Ubuntu by clicking on the tap of the PowerShell tab bar.
-(if someone doesn't know how to open the PowerShell like this, you just right-click on "start" and use the Windows terminal) 
+  (if someone doesn't know how to open the PowerShell like this, you just right-click on "start" and use the Windows terminal) 
 
-![open ubuntu ](https://user-images.githubusercontent.com/95965281/190912152-918b5043-256b-4d3e-a260-06412bd1e8bc.png)
+  ![open ubuntu ](https://user-images.githubusercontent.com/95965281/190912152-918b5043-256b-4d3e-a260-06412bd1e8bc.png)
 
 2. After you are setting the username and password, use run the command belows immediately 
 ```
 sudo apt-get update
 ```
-then 
+  then 
 ```
 sudo apt-get upgrade
 ```
-then
+  then
 ```
 sudo apt-get install npm
 ```
 
 3. Install the python by the Pyenv in the Ubuntu
 
-the [Stackoverflow](https://stackoverflow.com/questions/62743132/ubuntu-18-04-command-pyenv-not-found-did-you-mean) link clearly describes a step-by-step method. you can follow Ircbarros's comment
+  the [Stackoverflow](https://stackoverflow.com/questions/62743132/ubuntu-18-04-command-pyenv-not-found-did-you-mean) link clearly describes a step-by-step method. you   can follow Ircbarros's comment
 
 4. Install the python with pyenv (you can determine the version of python in this case use the Python 3.9.12 version.)
 ```
 pyenv install 3.9.12
 ```
 
-**optional** for people who use VScode IDE to download the "Remote - WSL" extension to write the python code in Ubuntu
+  **optional** for people who use VScode IDE to download the "Remote - WSL" extension to write the python code in Ubuntu
 
-if you get the error message 
-"pyenv install: 3.x BUILD FAILED (Ubuntu 20.04 using python-build 20180424)"
+  if you get the error message 
+  "pyenv install: 3.x BUILD FAILED (Ubuntu 20.04 using python-build 20180424)"
 
-do following this [link](https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424)
+  do following this [link](https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424)
 
 ### Download and set up Apache Airflow
 
@@ -81,13 +81,13 @@ mkdir airflow-setup
 ```
 cd airflow-setup
 ```
-you can use "tab" on your keyboard to auto-complete writing the text on the terminal
+  you can use "tab" on your keyboard to auto-complete writing the text on the terminal
 
 3. Create a virtual python environment in the airflow-setup directory
 ```
 python3 -m venv ENV
 ```
-then activate the environment
+  then activate the environment
 ```
 source ENV/bin/activate
 ```
