@@ -76,9 +76,7 @@ pyenv install 3.9.12
   > **Optional** for people who use VScode IDE to download the "Remote - WSL" extension to write the python code in Ubuntu
 
   > if you get the error message 
-  > "pyenv install: 3.x BUILD FAILED (Ubuntu 20.04 using python-build 20180424)"
-
-  > Do following this [link](https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424)
+  > "pyenv install: 3.x BUILD FAILED (Ubuntu 20.04 using python-build 20180424)" Do following this [link](https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424)
 
    </p>
   </details>
@@ -139,7 +137,7 @@ airflow scheduler
 
 9. Open the new Ubuntu to create a username and password (don't close any tab before). go to the airflow-setup directory `cd airflow-setup` and **activate virtual ENV again**. !! **in section "role" use only "Admin"**
 ```
-    $ airflow users create \
+     airflow users create \
           --username <your_user> \
           --firstname <your_first_name> \
           --lastname <your_last_name> \
