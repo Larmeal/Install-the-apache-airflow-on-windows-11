@@ -20,6 +20,7 @@ Examine the whole distributions of linux software
 ```
 wsl -l -o
 ```
+or
 ```
 wsl --list --online
 ```
